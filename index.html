@@ -3,25 +3,88 @@
 <html lang="de">
 <head>
   <meta charset="utf-8">
-  <title>24 Rätsel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="tailwind.css" rel="stylesheet">
+  <title>24 Rätsel 2021</title>
 </head>
 
-<body>
-  <h1>24 Rätsel 2021</h1>
-  <a href="#">24 Rätsel 2021 im App Store</a>
-  <h2>Kontakt</h2>
-  Bei Fragen zur App oder beim Bemerken von Fehlern kontaktiert uns gerne:<br>
-  Michael und Aaron Strupp <br>
-  <a href="mailto:24raetsel@gmail.com">24raetsel@gmail.com</a>
-  <h2>Datenschutz</h2>
-  In der App kannst du Kommentare zu Rätseln schreiben und veröffentlichen.
-  Beim Absenden eines Kommentars werden dein Game Center Alias, 
-  Game Center Avatar und der Kommentar hochgeladen.
-  Die Daten werden in iCloud gespeichert und anderen Benutzern zufällig angezeigt.
-  Alle Kommentare werden vor ihrer Veröffentlichung von einem Moderator geprüft.
-  Nur familienfreundliche Kommentare werden veröffentlicht.
-  Wenn du einen Kommentar entfernen möchtest, 
-  sende einfach einen neuen, leeren Kommentar ab.
+<body class="bg-gray-100 flex flex-col items-center">
+  <div class="flex flex-col py-14 px-4 sm:px-14 space-y-8 max-w-5xl">
+    <div class="flex flex-col items-center bg-white rounded-2xl p-4 shadow-lg">
+      <h1 class="text-3xl font-semibold text-gray-900">24 Rätsel 2021</h1>
+      <h2 class="text-xl font-light text-gray-600">Eine Rätsel-Adventskalender-App</h2>
+      <img class="py-5" src="img/icon.png" alt="24 Rätsel App Icon">
+      <a href="https://apps.apple.com/de/app/24-r%C3%A4tsel-2021/id1590825251">
+        <img src="img/app store.svg" alt="Laden im App Store">
+      </a>
+    </div>
+    <div class="flex flex-col space-y-5 sm:flex-row sm:space-x-5 sm:space-y-0">
+      <div class="flex flex-col bg-white p-4 rounded-2xl shadow-lg w-full">
+        <figure>
+          <img class="rounded-xl" src="img/screenshot world map.png" alt="Screenshot Rätselauswahl"/>
+          <figcaption class="text-red-700 pt-2 text-lg">Rätselauswahl</figcaption>
+          <p class="text-gray-900">Laufe durch eine verschneite Winterlandschaft, in der du jeden Tag ein neues Rätsel öffnen kannst.</p>
+        </figure>
+      </div>
+      <div class="flex flex-col bg-white p-4 rounded-2xl shadow-lg w-full">
+        <figure>
+          <img class="rounded-xl" src='img/screenshot puzzle.png' alt="Screenshot Rätsel"/>
+          <figcaption class="text-red-700 pt-2 text-lg">24 Rätsel</figcaption>
+          <p class="text-gray-900">Entdecke 24 Rätsel, die von dir gelöst werden wollen. Mit automatisch täglicher Freischaltung des neuen Rätsels.</p>
+        </figure>
+      </div>
+      <div class="flex flex-col bg-white p-4 rounded-2xl shadow-lg w-full">
+        <figure>
+          <img class="rounded-xl" src='img/screenshot comment.png' alt="Screenshot Kommentare"/>
+          <figcaption class="text-red-700 pt-2 text-lg">Kommentare</figcaption>
+          <p class="text-gray-900">Über Kommentare kannst du Nachrichten mit der ganzen Welt teilen! So sind alle Rätsel-Fans miteinander verbunden.</p>
+        </figure>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl p-4 shadow-lg">
+      <h2 class="text-red-700 text-lg">Features</h2>
+      <ul class="list-disc list-inside">
+        <li>Entdecke 24 Rätsel, die von dir gelöst werden wollen. Mit automatisch täglicher Freischaltung des neuen Rätsels.</li>
+        <li>Zwei Minispiele warten auf dich. Sammle in einem Reaktionsspiel möglichst viele Geschenke und stelle dein Denkvermögen in einem Rechenspiel unter Beweis.</li>
+        <li>Über Kommentare kannst du Nachrichten mit der ganzen Welt teilen! Versende deine Gedanken zu den Rätseln und sieh dir an, was andere denken. So sind alle Rätsel-Fans miteinander verbunden.</li>
+        <li>In den Game-Center-Bestenlisten erfährst du, wer die meisten Rätsel gelöst hat. Außerdem gibt es Bestenlisten für die Minispiele.</li>
+        <li>Lass dich täglich um 8 Uhr informieren, sobald ein neues Rätsel verfügbar ist.</li>
+        <li>Der Adventskalender ist selbstverständlich frei von jeglicher Werbung und Ad-Tracking.</li>
+        <li>Spiele 4 Rätsel komplett kostenlos. Danach hast du die Möglichkeit, alle Rätsel, Minispiele und weitere Inhalte über einen In-App-Kauf freizuschalten.</li>
+      </ul>
+    </div>
+
+    <div class="bg-white rounded-2xl p-4 shadow-lg">
+      <h2 class="text-red-700 text-lg">Kostenlos ausprobieren</h2>
+        <div class="flex justify-between">
+          Die ersten 4 Rätsel sind komplett kostenlos. Lade die App jetzt runter!
+      </div>
+    </div>
+    <a class="self-center" href="https://apps.apple.com/de/app/24-r%C3%A4tsel-2021/id1590825251">
+      <img class="pl-4" src="img/app store.svg" alt="Laden im App Store">
+    </a>
+
+    <div class="bg-white rounded-2xl p-4 shadow-lg">
+      <h2 class="text-red-700 text-lg">Kontakt</h2>
+      Bei Fragen zur App oder beim Bemerken von Fehlern kontaktiert uns gerne:<br>
+      Michael und Aaron Strupp <br>
+      <a class="text-blue-500" href="mailto:24raetsel@gmail.com">24raetsel@gmail.com</a>
+    </div>
+    
+    <div class="bg-white rounded-2xl p-4 shadow-lg">
+      <h2 class="text-red-700 text-lg">Datenschutz</h2>
+      In der App kannst du Kommentare zu Rätseln schreiben und veröffentlichen.
+      Beim Absenden eines Kommentars werden dein Game Center Alias, 
+      Game Center Avatar und der Kommentar hochgeladen.
+      Die Daten werden in iCloud gespeichert und anderen Benutzern zufällig angezeigt.
+      Alle Kommentare werden vor ihrer Veröffentlichung von einem Moderator geprüft.
+      Bitte gib in deinen Kommentaren keine Hinweise auf die Lösung eines Rätsels oder persönliche Daten an.
+      Nur familienfreundliche Kommentare werden veröffentlicht.
+      Wenn du einen Kommentar entfernen möchtest, 
+      sende einfach einen neuen, leeren Kommentar ab.
+    </div>
+  </div>
 </body>
 </html>
 
